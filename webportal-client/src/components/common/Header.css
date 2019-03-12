@@ -1,0 +1,72 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f273d;
+  width: 100%;
+  height: 80px;
+}
+
+.Header-logo {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 90px;
+}
+
+.Header-string {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  width: 90px;
+  color: #ffffff;
+}
+
+.Header-signup-string {
+  position: absolute;
+  top: 15px;
+  left: 650px;
+  width: 90px;
+  color: #ffffff;
+}
+
+.Header-login-string {
+  position: absolute;
+  top: 15px;
+  left: 750px;
+  width: 90px;
+  color: #ffffff;
+}
+
+.Header-logout-string {
+  position: absolute;
+  top: 30px;
+  left: 1400px;
+  width: 90px;
+  color: #ffffff;
+}
+
+.Header-goto-dashboard-string {
+  position: absolute;
+  top: 30px;
+  left: 750px;
+  width: 90px;
+  color: #ffffff;
+}
+
+.Header-user-name {
+  position: absolute;
+  top: 30px;
+  left: 1300px;
+  width: 90px;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .Header-logo {
+    display: absolute;
+    left: 1300px;
+    top: 100px;
+  }
+}
